@@ -23,6 +23,7 @@
 调用构造函数，如果集成了别的类，就先调用父类的构造函数。
 
 **2、类加载时机**
+
 1、jvm执行new、getstatic、putstatic、invokestatic指令时，触发类的初始化：
 
 new指令创建一个对象
