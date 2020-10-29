@@ -179,7 +179,7 @@ public class NettyHttpServer {
                         }
                     });
             ChannelFuture future = bootstrap.bind(port).sync();
-            future.channel().closeFuture();
+            future.channel().closeFuture().sync();
         } finally {
             // 优雅关闭
             bossGroup.shutdownGracefully();
