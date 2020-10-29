@@ -39,7 +39,7 @@ public class NettyHttpServer {
                     });
             ChannelFuture future = bootstrap.bind(port).sync();
             future.channel().closeFuture();
-        } catch (Exception e){
+        } finally {
             // 优雅关闭
             bossGroup.shutdownGracefully();
             workerGroup.shutdownGracefully();
