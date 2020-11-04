@@ -1,6 +1,6 @@
 ####  本次作业
 
-**源码链接：**https://github.com/codingCoder6/JavaCourseCodes/tree/main/02nio/nio02/src/main/java/io/github/kimmking/gateway
+源码链接：https://github.com/codingCoder6/JavaCourseCodes/tree/main/02nio/nio02/src/main/java/io/github/kimmking/gateway
 
 ### 1.周四作业：整合你上次作业的 httpclient/okhttp；
 
