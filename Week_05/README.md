@@ -475,6 +475,7 @@ public class JdbcDemo {
         PreparedStatement psmt = null;
         try {
             psmt = connection.prepareStatement(sql);
+//       开启手动提交事务
             connection.setAutoCommit(false);
             for (int i = 0; i < list.size(); i++) {
                 if (i == 5) {
